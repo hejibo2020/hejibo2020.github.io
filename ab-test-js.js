@@ -1,5 +1,7 @@
 
-//<script type="text/javascript">
+
+<!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
+<script type="text/javascript">
 
 function reDirectFuction(){
 
@@ -33,4 +35,4 @@ else
     
     
     
-//</script>
+</script>

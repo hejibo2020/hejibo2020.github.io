@@ -1,0 +1,55 @@
+<html>
+    <head>
+            <script type="text/javascript">
+                window._mfq = window._mfq || [];
+                (function() {
+                    var mf = document.createElement("script");
+                    mf.type = "text/javascript"; mf.async = true;
+                    mf.src = "//cdn.mouseflow.com/projects/f0087add-613b-47f4-b184-859bf73a341c.js";
+                    document.getElementsByTagName("head")[0].appendChild(mf);
+                })();
+            </script>
+            <style>
+                    button {
+                       background: url("magenta-background.png") no-repeat;
+                       color:#8B008B 
+                       background-color: #FF00FF
+                       border:3px solid #FF00FF
+                    }
+
+                    div {
+                        text-align: center;
+                        vertical-align: middle;
+                        }
+                    </style>
+
+                    
+<!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
+<script type="text/javascript">
+function reDirectFuction(){
+    var url = "https://www.wichita.edu/";
+    if(typeof IE_fix != "undefined") // IE8 and lower fix to pass the http referer
+    {
+        document.write("redirecting..."); // Don't remove this line or appendChild() will fail because it is called before document.onload to make the redirect as fast as possible. Nobody will see this text, it is only a tech fix.
+        var referLink = document.createElement("a");
+        referLink.href = url;
+        document.body.appendChild(referLink);
+        referLink.click();
+    }
+    else { window.location.replace(url); } // All other browsers
+}
+</script>
+
+        </head>
+        <body >
+            <div>
+            <h1>Welcome to Jibo He's website</h1>
+<h2>Eye tracking and usability book</h2>
+
+<img src="eye-tracking-book.jpg" width="10%"  height="150px">
+<img src="jordan-fisher.jpg" width="10%" height="150px">
+<br>
+<button onclick="reDirectFuction()">Purchase it now! </button>
+</div>
+</body>
+</html>
